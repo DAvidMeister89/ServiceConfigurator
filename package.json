@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./serviceconfigurator/frontend/src/index.js --output ./serviceconfigurator/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./serviceconfigurator/frontend/src/index.js --output ./serviceconfigurator/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./serviceconfigurator/frontend/src/index.js --output ./serviceconfigurator/frontend/static/frontend/main.js"
   },
   "repository": {
