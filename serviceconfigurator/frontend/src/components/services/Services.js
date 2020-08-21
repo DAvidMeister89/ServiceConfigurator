@@ -6,6 +6,8 @@ import { getServices, deleteService } from "../../actions/services";
 export class Services extends Component {
   static propTypes = {
     services: PropTypes.array.isRequired,
+    getServices: PropTypes.func.isRequired,
+    deleteService: PropTypes.func.isRequired,
   };
 
   componentDidMount() {

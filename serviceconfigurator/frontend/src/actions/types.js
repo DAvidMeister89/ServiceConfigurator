@@ -1,2 +1,3 @@
 export const GET_SERVICES = "GET_SERVICES";
 export const DELETE_SERVICE = "DELETE_SERVICE";
+export const ADD_SERVICE = "ADD_SERVICE";
